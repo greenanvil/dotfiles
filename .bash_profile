@@ -5,12 +5,6 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
-#### init z   https://github.com/rupa/z
-###. ~/code/z/z.sh
-
-# Path additions
-export PATH="${PATH}:/opt/node/bin:/opt/phantomjs-1.7.0-linux-i686/bin"
-
 # init rvm
 source ~/.rvm/scripts/rvm
 
