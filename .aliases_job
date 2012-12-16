@@ -1,0 +1,4 @@
+alias dir-titan="cd /yk.data/www/titan/"
+alias run-titan="cd /yk.data/www/titan/; supervisor -n exit -e 'yml|html|js' titan"
+alias compass-mot="cd /yk.data/www/titan/app/widgets/metric-over-time/;compass watch;"
+alias compass-titan="cd /yk.data/www/titan/;compass watch;"
