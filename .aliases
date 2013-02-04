@@ -6,6 +6,9 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+#alias runtitan="cd /yk.data/www/titan/; supervisor -n exit -e 'yml|html|js' titan"
+#alias compassmot="cd /yk.data/www/titan/app/widgets/metric-over-time/;compass watch;"
+
 # programs
 ##alias slt='open -a "Sublime Text 2"'
 # also/or do this:
