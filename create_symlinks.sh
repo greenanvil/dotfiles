@@ -4,6 +4,7 @@
 # TODO: Handle files if they exist
 
 sudo ln -s $PWD/.aliases ~/.aliases
+sudo ln -s $PWD/.aliases_job ~/.aliases_job
 sudo ln -s $PWD/.bash_profile ~/.bash_profile
 sudo ln -s $PWD/.bash_prompt ~/.bash_prompt
 sudo ln -s $PWD/.bashrc ~/.bashrc
