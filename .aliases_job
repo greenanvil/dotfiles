@@ -1,5 +1,6 @@
 alias dir-titan="clear; cd /yk.data/www/titan/"
 alias dir-mot="clear; cd /yk.data/www/titan/app/widgets/metric-over-time/"
 alias run-titan="clear; cd /yk.data/www/titan/; supervisor -n exit -e 'yml|html|js' titan"
+alias run-micro="clear; cd /var/www/gaikai.com-microsite/; supervisor -n exit -e 'yml|html|js' bootstrap"
 alias compass-mot="clear; cd /yk.data/www/titan/app/widgets/metric-over-time/;compass watch;"
 alias compass-titan="clear; cd /yk.data/www/titan/;compass watch;"
