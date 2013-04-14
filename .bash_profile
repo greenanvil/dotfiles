@@ -5,8 +5,9 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions,aliases_job}; do
 done
 unset file
 
-# init rvm
-# source ~/.rvm/scripts/rvm
+#rvm
+PATH=$PATH:$HOME/.rvm/bin
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
