@@ -6,6 +6,8 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+alias testacular="karma"
+
 #alias runtitan="cd /yk.data/www/titan/; supervisor -n exit -e 'yml|html|js' titan"
 #alias compassmot="cd /yk.data/www/titan/app/widgets/metric-over-time/;compass watch;"
 
@@ -60,6 +62,9 @@ alias undopush="git push -f origin HEAD^:master"
 
 # git root
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
+
+# commit shortcut
+alias gcmt='git commit -a -m'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
